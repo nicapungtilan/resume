@@ -1,0 +1,34 @@
+*{
+	background-color:#99ccff;
+}
+p{
+	margin:auto;
+	text-align:center;
+	font-size:30px;
+}
+li{
+	font-family:Impact;
+	color:#ff1a66;
+	text-align:left;
+	font-size:35px;
+}
+span{
+	font-family:Courier;
+	font-size:35px;
+	color:#333333;
+}
+
+@-webkit-keyframes cat{
+0%  { left: 200px; }
+25% { left: 400px; }
+50% { left: 600px; }
+100%{ left: 900px; }
+
+}
+img{
+	position: absolute;
+    animation-name:cat;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    
+}
